@@ -1,0 +1,21 @@
+{
+  "name": "@entrext/support-client",
+  "version": "0.1.0",
+  "private": false,
+  "description": "support_feedback_loop",
+  "license": "ISC",
+  "author": "tarashabansal",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
