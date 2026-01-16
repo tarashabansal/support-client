@@ -8,6 +8,7 @@ export interface SubmitSupportTicketInput {
   product: string;
   category: SupportCategory;
   message: string;
+  user_email: string;
   metadata?: Record<string, any>;
 }
 
